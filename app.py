@@ -3,7 +3,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import streamlit.components.v1 as components
-import matplotlib.pyplot as plt
 
 # import ML libraries
 from sklearn.ensemble import GradientBoostingClassifier

@@ -1,0 +1,6 @@
+cut-off,sensitivity (diabetics found),specificity (healthy cleared),precision (flagged who are diabetic),share flagged,accuracy
+0.5,0.567,0.872,0.704,0.281,0.766
+0.4,0.672,0.822,0.669,0.35,0.77
+0.35,0.72,0.79,0.648,0.388,0.766
+0.3,0.776,0.726,0.603,0.449,0.743
+0.25,0.836,0.644,0.557,0.523,0.711

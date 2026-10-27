@@ -1,0 +1,7 @@
+model,imputation,accuracy,accuracy sd,balanced accuracy,sensitivity,ROC AUC
+Logistic regression,honest (imputed inside CV),0.768,0.025,0.72,0.563,0.837
+Logistic regression,leaky (imputed with the outcome),0.775,0.028,0.733,0.596,0.859
+Random forest,honest (imputed inside CV),0.76,0.03,0.72,0.589,0.835
+Random forest,leaky (imputed with the outcome),0.879,0.02,0.866,0.822,0.943
+Gradient boosting,honest (imputed inside CV),0.758,0.03,0.725,0.615,0.829
+Gradient boosting,leaky (imputed with the outcome),0.88,0.021,0.863,0.807,0.95

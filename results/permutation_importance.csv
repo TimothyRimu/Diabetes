@@ -1,0 +1,9 @@
+,AUC drop when shuffled
+Glucose,0.1928
+BMI,0.0583
+Pregnancies,0.0231
+DiabetesPedigreeFunction,0.0142
+Age,0.0034
+SkinThickness,0.0008
+Insulin,-0.0003
+BloodPressure,-0.0008

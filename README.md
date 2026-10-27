@@ -40,7 +40,7 @@ The first version of this project filled in missing measurements with the median
 ## Reproduce
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt   # add jupyter to run the notebook
 cd notebooks && jupyter notebook diabetes_risk_prediction.ipynb   # Run All (about a minute)
 ```
 
@@ -51,3 +51,7 @@ cd notebooks && jupyter notebook diabetes_risk_prediction.ipynb   # Run All (abo
 ## Author
 
 Timothy Rimu
+
+## Live demo
+
+A small Streamlit app (`app/streamlit_app.py`) trains the honest logistic-regression pipeline on start-up and lets you try a risk cut-off. Run locally with `streamlit run app/streamlit_app.py`. It is an educational demo, not medical advice.
